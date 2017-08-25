@@ -14,14 +14,21 @@ public class Triangel extends Figur {
 	System.out.println("triangel area"+i*k/2);	
 	}
 	
-	/**
-	 * @param arg
+	/*
+	 * 
 	 * Polymorfism inom biologi innebär att det inom samma population
 	 *  av en art finns två eller flera distinkta varianter, morfer.
 	 * objektetets klass styr vilken metod som skall anropas inte 
 	 * referensens typ.
 	 *  Polymorphism just means that different objects can 
 	 *  respond to the same message(method) in different ways.
+	 * 
+	 * en klass är polymorfisk om om frågan "är en" ger mer än ett svar
+	 *
+	 * ex en jframe är en container 
+	 *    en jframe är en component
+	 *    en jframe är en object
+	 * 
 	 * 
 	 * 
 	 */
