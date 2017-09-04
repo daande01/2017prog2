@@ -18,7 +18,9 @@ public class ObDemo extends JFrame {
 		setLayout(new FlowLayout());
 		
 		JLabel j1 = new JLabel("hej",JLabel.CENTER);
+		add(j1);
 		
+		setVisible(true);
 		
 	}
 	
@@ -32,7 +34,7 @@ public class ObDemo extends JFrame {
 	
 	public static void main(String [] arg){
 		
-		
+		ObDemo demo1=new ObDemo(); 
 	}
 	
 	
